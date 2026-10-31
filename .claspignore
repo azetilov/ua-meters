@@ -1,0 +1,9 @@
+# Ignore everything by default
+**/**
+
+# Ignore config
+.config.json
+
+# Allow only Google Apps Script manifest and JavaScript files
+!appsscript.json
+!*.js

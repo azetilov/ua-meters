@@ -1,0 +1,14 @@
+{
+  "name": "ua-meters-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for multi-property utility meter monitoring in Google Apps Script",
+  "scripts": {
+    "login": "clasp login",
+    "push": "./push_to_gas.sh",
+    "deploy": "./push_to_gas.sh --deploy",
+    "open": "clasp open"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2"
+  }
+}

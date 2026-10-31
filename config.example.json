@@ -1,0 +1,77 @@
+{
+  "properties": [
+    {
+      "property_id": "house_khreshchatyk_10",
+      "address_name": "вул. Хрещатик, 10",
+      "google_sheet_id": "1A2B3C4D5E6F_REPLACE_WITH_YOUR_ACTUAL_SHEET_ID_1",
+      "sheet_tab_name": "2026",
+      "source_chat_id": -1001111111111,
+      "meters": [
+        {
+          "meter_id": "gas_main",
+          "name_uk": "Газ (Основний)",
+          "type": "gas",
+          "code": "GAS-9918",
+          "target_column": "B",
+          "description_for_ai": "Металевий лічильник газу, червоні цифри після коми"
+        },
+        {
+          "meter_id": "water_kitchen",
+          "name_uk": "Вода (Кухня)",
+          "type": "water",
+          "code": "WTR-0012",
+          "target_column": "C",
+          "description_for_ai": "Синій або червоний круглий лічильник води під раковиною кухні"
+        },
+        {
+          "meter_id": "water_bathroom",
+          "name_uk": "Вода (Ванна)",
+          "type": "water",
+          "code": "WTR-0013",
+          "target_column": "D",
+          "description_for_ai": "Круглий лічильник води у ванній кімнаті"
+        },
+        {
+          "meter_id": "electricity_shared",
+          "name_uk": "Електроенергія (Спільний)",
+          "type": "electricity",
+          "code": "EL-4402",
+          "target_column": "E",
+          "description_for_ai": "Електронний цифровий дисплей, кВт·год, лічильник у коридорі",
+          "shared_targets": [
+            {
+              "property_id": "house_khreshchatyk_12",
+              "target_column": "B"
+            }
+          ]
+        },
+        {
+          "meter_id": "water_boiler",
+          "name_uk": "Вода (Котельня)",
+          "type": "water",
+          "code": "WTR-0099",
+          "source_chat_id": -1002222222222,
+          "target_column": "F",
+          "description_for_ai": "Лічильник води в окремій котельні"
+        }
+      ]
+    },
+    {
+      "property_id": "house_khreshchatyk_12",
+      "address_name": "вул. Хрещатик, 12",
+      "google_sheet_id": "9Z8Y7X6W5V4U_REPLACE_WITH_YOUR_ACTUAL_SHEET_ID_2",
+      "sheet_tab_name": "2026",
+      "source_chat_id": -1003333333333,
+      "meters": [
+        {
+          "meter_id": "gas_house_12",
+          "name_uk": "Газ",
+          "type": "gas",
+          "code": "GAS-1100",
+          "target_column": "C",
+          "description_for_ai": "Газовий лічильник будинку 12"
+        }
+      ]
+    }
+  ]
+}
